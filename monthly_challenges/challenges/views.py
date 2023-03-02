@@ -1,7 +1,6 @@
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
-from django.template.loader import render_to_string
 
 monthly_challenges = {
     "january": "Eat no meat for the entire month!",
@@ -15,7 +14,7 @@ monthly_challenges = {
     "september": "Learn Django for at least 20 minutes every day!",
     "october": "Eat no meat for the entire month!",
     "november": "Walk for at least 20 minutes every day!",
-    "december": "Learn Django for at least 20 minutes every day!",
+    "december": None,
 }
 
 
