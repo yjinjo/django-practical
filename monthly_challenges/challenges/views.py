@@ -56,7 +56,7 @@ def monthly_challenge(request, month):
             "challenges/challenge.html",
             {
                 "text": challenge_text,
-                "month_name": month.capitalize(),
+                "month_name": month,
             },
         )
     except:
