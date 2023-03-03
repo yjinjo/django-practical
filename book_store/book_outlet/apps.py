@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ChallengesConfig(AppConfig):
+class BookOutletConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "challenges"
+    name = "book_outlet"
